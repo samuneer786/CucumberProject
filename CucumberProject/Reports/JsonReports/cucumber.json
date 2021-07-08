@@ -1,0 +1,72 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-07-08T16:16:16.044Z",
+        "line": 3,
+        "name": "Test Login Functionality of OrangeHrm application",
+        "description": "",
+        "id": "test-the-login-functinality-of-orangehrm;test-login-functionality-of-orangehrm-application",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 15840039100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "The user is a registered user",
+            "match": {
+              "location": "com.stepDefination.LoginSteps.the_user_is_a_registered_user()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 844795200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "users enters username and password",
+            "match": {
+              "location": "com.stepDefination.LoginSteps.users_enters_username_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 46819349000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user clicks on login",
+            "match": {
+              "location": "com.stepDefination.LoginSteps.user_clicks_on_login()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1330327300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "OrangeHrm renders Homepage",
+            "match": {
+              "location": "com.stepDefination.LoginSteps.orange_hrm_renders_homepage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Test the login functinality of OrangeHrm",
+    "description": "",
+    "id": "test-the-login-functinality-of-orangehrm",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/Login.feature",
+    "tags": []
+  }
+]
